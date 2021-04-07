@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>福建鑫友合机电工程有限公司</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="./css/demo.css">
+   <style>
+        .banner{
+            background: url(./images/banner.png) no-repeat;
+            background-size: 100% 100%;
+            height: 227px;
+
+        }
+        #origin
+        {
+            width:200px;
+            height:120px;
+            border:1px dashed gray;
+        }
+        /*设置当前元素样式*/
+        #current
+        {
+            width:200px;
+            height:50px;
+            color:white;
+            background-color: rgba(14, 14, 248, 0.5);
+            transform:skewX(30deg);
+            position: relative;
+            left: -17px;
+            margin-top: 40px;
+        }
+        #current p{
+            line-height: 50px;
+            text-align: center;
+            transform:skewX(-30deg);
+            font-size: 24px;
+        }
+        .banner .gsname{
+            height: 50px;
+            line-height: 50px;
+            background-color: rgba(14, 14, 248, 0.5);
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+        }
+        div.tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-image: linear-gradient(#3a0ef8, #9198e5);
+        }
+
+        /* Style the buttons inside the tab */
+        div.tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 0;
+            transition: 0.3s;
+            font-size: 17px;
+            width: 25%;
+            color: #fff;
+        }
+
+        /* Change background color of buttons on hover */
+        div.tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        div.tab button.active {
+            background-color: #e66465;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            padding: 6px 12px;
+            -webkit-animation: fadeEffect 1s;
+            animation: fadeEffect 1s;
+            display: none;
+            letter-spacing:2px;
+            line-height: 20px;
+            font-size: 16px;
+            color: #666;
+        }
+        .downarrow{
+            width: 30px;
+            display: block;
+            margin: 0 auto;
+        }
+        .map, .contact{
+            width: 100%;
+        }
+        .wxcode{
+            width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+        .priject li h4{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .priject li img{
+            width: 96%;
+            display: block;
+            margin: 10px auto;
+        }
+        /* Fade in tabs */
+        @-webkit-keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+        .arktitle {
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px 0 10px 0;
+            background: linear-gradient(to right, red, blue);
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: blink 2s linear infinite;
+            -webkit-animation: blink 2s linear infinite;
+            -moz-animation: blink 2s linear infinite;
+            -ms-animation: blink 2s linear infinite;
+            -o-animation: blink 2s linear infinite;
+          }
+        @keyframes blink{
+            0%{opacity: 1;}
+            50%{opacity: 0.5;}
+            100%{opacity: 0.8;}
+          }
+          @-webkit-keyframes blink {
+            0% { opacity: 1; }
+            50%{ opacity: 0.5;}
+            100% { opacity: 0.8; }
+          }
+          @-moz-keyframes blink {
+            0% { opacity: 1; }
+            50%{ opacity: 0.5; }
+            100% { opacity: 0.8; }
+          }
+          @-ms-keyframes blink {
+            0% { opacity: 1; }
+            50%{ opacity: 0.5; }
+            100% { opacity: 0.8;}
+          }
+          @-o-keyframes blink {
+            0% { opacity: 1; }
+            50%{ opacity: 0.5; }
+            100% { opacity: 0.8; }
+          }
+   </style>
+</head>
+<body>
+    <div class="content">
+        <div class="banner">
+            <div id="origin">
+                <div id="current">
+                    <p>欢迎您进入</p>
+                </div>
+            </div>
+            <div class="gsname">福建鑫友合机电工程有限公司</div>
+        </div>
+        <div class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'London')">关于我们</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">案例分享</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">导航地址</button>
+            <button class="tablinks" onclick="openCity(event, 'contact')">联系我们</button>
+        </div>
+        
+        <div id="London" class="tabcontent" style="display: block;">
+            <p>福建鑫友合机电工程有限公司是专业从事电梯设备的销售、安装、维保于一体的技术企业，成立于2017年；公司在立足于福州本地的基础上，
+            业务范围涵盖了福建省内各地区。为了更好地为客户提供高效优质的服务,我司积累了丰富的经验，并不断追求技术创新，秉持踏实诚恳的专业精神，
+            向客户提供具有高可靠性、高性能的划时代产品;鑫友合人始终怀着“精业、专业、敬业、乐业”的服务精神，以“结果导向、专注勤奋、立即行动、
+            服务责任的四大作风，回馈客户，服务社会。公司将一如既往地为广大新老客户提供更优质，更专业的服务，以最合理的价格、最完善的服务、
+            最优良的产品期待与您真诚合作，共谋发展。
+            </p>
+            <div class="arktitle">关注官方微信分享更多精彩</div>
+            <img class="downarrow" src="./images/down.png" alt="">
+            <img class="wxcode" src="./images/wxcode.jpg" alt="">
+        </div>
+        
+        <div id="Paris" class="tabcontent">
+            <ul class="priject">
+                <li>
+                    <h4>莆田施工项目</h4>
+                    <img src="./images/pta.png" alt="">
+                    <img src="./images/ptb.png" alt="">
+                    <img src="./images/ptc.png" alt="">
+                    <img src="./images/ptd.png" alt="">
+                </li>
+                <li>
+                    <h4>福州施工项目</h4>
+                    <img src="./images/fza.png" alt="">
+                    <img src="./images/fzb.png" alt="">
+                    <img src="./images/fzc.png" alt="">
+                    <img src="./images/fzd.png" alt="">
+                </li>
+                <li>
+                    <h4>尤溪施工项目</h4>
+                    <img src="./images/yxa.png" alt="">
+                    <img src="./images/yxb.png" alt="">
+                    <img src="./images/yxc.png" alt="">
+                    <img src="./images/yxd.png" alt="">
+                </li>
+                <li>
+                    <h4>福清施工项目</h4>
+                    <img src="./images/fqa.png" alt="">
+                    <img src="./images/fqb.png" alt="">
+                    <img src="./images/fqc.png" alt="">
+                    <img src="./images/fqd.png" alt="">
+                </li>
+                <li>
+                    <h4>平潭施工项目</h4>
+                    <img src="./images/pte.png" alt="">
+                    <img src="./images/ptf.png" alt="">
+                    <img src="./images/ptg.png" alt="">
+                    <img src="./images/pth.png" alt="">
+                </li>
+            </ul>
+        </div>
+        
+        <div id="Tokyo" class="tabcontent">
+           <img class="map" src="./images/map.png" alt="">
+           <p>地址:福建省福州市晋安区新店镇坂中路6号泰禾城市广场（二期）4#楼6层19办公</p>
+        </div>
+
+        <div id="contact" class="tabcontent">
+            <img class="contact" src="./images/contact.png" alt="">
+            <p>联系电话：0591-87515977</p>
+            <p>公司QQ：619315143</p>
+            <p>公司邮箱：619315143@qq.com</p>
+        </div>
+    </div>    
+</body>
+<script>
+    function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+   }
+
+</script>
+</html>
